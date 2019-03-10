@@ -41,7 +41,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 #$myUpdateChecker->setAuthentication('your-token-here');
 
 //Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('auto-update-testing');
+$myUpdateChecker->setBranch('master');
 
 
 ?>
